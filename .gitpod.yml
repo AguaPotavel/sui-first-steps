@@ -1,0 +1,6 @@
+tasks:
+  - init: |
+      curl -fsSL "https://sui.dev/scripts/install_cli.py" | python3
+vscode:
+  extensions:
+    - ms-python.python

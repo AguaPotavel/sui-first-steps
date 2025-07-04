@@ -1,0 +1,16 @@
+[package]
+name = "Intro"
+version = "0.0.0"
+
+[addresses]
+introducao = "0x5A6F6E612054726573"
+
+[dependencies.SuiStdlib]
+git = 'https://github.com/sui-labs/sui-core.git'
+rev = 'main'
+subdir = 'sui-move/framework/sui-stdlib'
+
+[dependencies.MoveStdlib]
+git = 'https://github.com/sui-labs/sui-core.git'
+rev = 'main'
+subdir = 'sui-move/framework/move-stdlib'

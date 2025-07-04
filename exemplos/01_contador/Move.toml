@@ -1,0 +1,16 @@
+[package]
+name = "Contador"
+version = "0.0.0"
+
+[addresses]
+cuenta = "_"
+
+[dependencies.SuiStdlib]
+git = 'https://github.com/sui-labs/sui-core.git'
+rev = 'main'
+subdir = 'sui-move/framework/sui-stdlib'
+
+[dependencies.MoveStdlib]
+git = 'https://github.com/sui-labs/sui-core.git'
+rev = 'main'
+subdir = 'sui-move/framework/move-stdlib'
