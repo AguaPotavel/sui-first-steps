@@ -14,7 +14,7 @@ Em termos gerais você precisa:
 * Clonar o repositório e navegar para o diretório do projeto.
     ```sh
     ## Por exemplo
-    cd ejemplos/01_contador
+    cd exemplos/01_contador
     ```
 * Inicializar o projeto para poder interagir com a Blockchain do Sui.
     ```sh
@@ -22,11 +22,11 @@ Em termos gerais você precisa:
     ```
 * Compilar o projeto.
     ```sh
-    sui move compile --named-addresses cuenta=default
+    sui move compile --named-addresses conta=default
     ```
 * Implantar o projeto.
     ```sh
-    sui move publish --named-addresses cuenta=default
+    sui move publish --named-addresses conta=default
     ```
 * Interagir com o contrato.
     * Utilizando a [Sui CLI](https://github.com/AguaPotavel/sui-first-steps/tree/master/backend/11_armazenamento_global).
