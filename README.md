@@ -257,3 +257,11 @@ mvr --version
 
 O repositório é composto por várias pastas com arquivos para cada tutorial, simplesmente navegue até elas usando `cd` e siga as instruções dentro delas.</br></br>
 Cada tutorial possui um arquivo `README.md` com instruções claras de como interagir com eles.
+
+## Créditos
+
+Este repositório é uma tradução para o português do projeto original em espanhol desenvolvido por [WayLearnLatam](https://github.com/WayLearnLatam). Você pode encontrar o repositório original em:
+
+**Repositório Original:** [https://github.com/WayLearnLatam/sui-first-steps](https://github.com/WayLearnLatam/sui-first-steps)
+
+Agradecemos à equipe WayLearnLatam por criar este excelente material educativo sobre Sui e Move.
