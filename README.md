@@ -184,7 +184,19 @@ sui --version
 
 ## Instalação no Linux <a id="linuxcli"></a>
 
-Podemos instalar o Sui de duas maneiras. Uma usando a ferramenta desenvolvida pela MystenLabs, `suiup`, e outra utilizando o gerenciador de pacotes para **Rust** chamado `cargo`. A recomendada para dar seus primeiros passos sem a necessidade de muitas configurações é `suiup`, no entanto, esta ferramenta não deve ser utilizada em ambientes de produção. Vamos explorar ambas as opções.
+Para iniciar a instalação o Sui precisamos garantir que algumas dependências estejam instaladas, diminuindo erros na criação do ambiente:
+ - Ferramentas de compilação essenciais (utilizadas para compilar os códigos fontes base) 
+ ```bash
+sudo apt update
+sudo apt install build-essential -y
+ ```
+
+ - Clang (gera as conexões entre os códigos feitos em *RUST* e *C++*)
+ ```bash
+ sudo apt install clang -y
+ ```
+
+Na sequência, podemos instalar o Sui de duas maneiras. Uma usando a ferramenta desenvolvida pela MystenLabs, `suiup`, e outra utilizando o gerenciador de pacotes para **Rust** chamado `cargo`. A recomendada para dar seus primeiros passos sem a necessidade de muitas configurações é `suiup`, no entanto, esta ferramenta não deve ser utilizada em ambientes de produção. Vamos explorar ambas as opções.
 
 ### `suiup`
 
