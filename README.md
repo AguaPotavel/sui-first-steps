@@ -66,7 +66,7 @@ git config --global user.email nome@exemplo.com
 No seu terminal, execute o seguinte comando:
 
 ```sh
-git clone https://github.com/Zona-Tres/sui-first-steps.git
+git clone https://github.com/AguaPotavel/sui-first-steps.git
 ```
 
 > :information_source: Lembre-se que você pode mudar o diretório onde o repositório será clonado. Utilize `cd` para se mover entre os diretórios do seu computador, e `mkdir` para criar um novo. </br></br>
